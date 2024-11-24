@@ -1,0 +1,203 @@
+.body {
+    background-color:#c0c0c0;
+}
+.header{
+    text-align: center;
+    font-family: "Constantia"; 
+    background-color:#6e5b50;
+}
+.headerText {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:#6e5b50;
+    margin-right:15px;
+}
+.h1 {
+    font-family: "Constantia";
+    margin-left:15px; 
+}
+.container{
+    padding: 40px;
+    margin: 10px;
+    background-color:#6e5b5073;
+    border: 10px double #6e5b50;
+}
+.container2{
+    display:flex;
+    flex-wrap:wrap;
+    padding: 40px;
+    margin: 10px;
+    background-color:#6e5b5073;
+    border: 10px double #6e5b50;
+}
+.block {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 20px; 
+    width: 200px;
+    height: 200px;
+    background-color: #c0c0c0aa;
+}
+.img {
+    img{
+        display: block;
+        margin-left:auto; 
+        margin-right:auto; 
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+.block2 {
+    display:flex;
+    align-items: center;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 200px;
+    height: 200px;
+    background-color: #c0c0c0aa;
+}
+.block3{
+    width: 200px;
+    height: 200px;
+    background-color: #6e5b50;
+}
+.el1 {
+    margin-right: 50px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 10px double #ad7c53bb;
+}
+.el2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 120px;
+    left: 120px;
+    border: 10px double#beb19c;
+}
+.el3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 230px;
+    top: 10px;
+    border: 10px double #beb19c;
+}
+.elKoTiK {
+    img{
+        position: fixed;
+        left: 100;
+        right: 0;
+        top: 100;
+        bottom: 0;
+        max-width: 100px;
+        max-height: 100px;
+    } 
+}
+.content {
+    display: flex;
+    margin-inline: auto;
+    justify-content: center;
+    width: 85%;
+	height: 1020px;
+    background-color:#6e5b5073;
+}
+.content-right {
+    float:right; 
+    img{
+        max-width: 290px;
+        max-height: 290px;
+    }
+    margin-left:180px; 
+    margin-right:100px; 
+    margin-top:45px;
+    margin-bottom: 45px;
+}
+.content-left {
+    margin-left:100px; 
+    margin-top:40px;
+}
+.textStyle1 {
+    font-family: "Constantia"; 
+    font-size: 18px;
+    color: #000000; 
+}
+.textStyle2 {
+    font-family: "Constantia"; 
+    font-size: 20px;
+    color: #000000;
+    background-color:#6e5b50; 
+}
+.textStyle3 {
+    font-family: "Constantia"; 
+    font-size: 18px;
+    color:#6e5b50;
+    font-weight: bold;
+    background-color:#6e5b5000;
+}
+.connection {
+    font-family: "Constantia"; 
+    font-size: 25px;
+    color:#000000;
+    font-weight: bold;
+}
+.link {
+    font-family: "Constantia"; 
+    font-size: 25px;
+    color:#6e5b50;
+    font-weight: bold;
+    background-color:#c0c0c0;
+}
+.link2 {
+    font-family: "Constantia"; 
+    font-size: 25px;
+    color:#00000080;
+    font-weight: bold;
+    margin-left:15px; 
+    margin-right:15px;
+}
+.containerT{
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 200px; 
+    margin-right: 200px;
+    background-color:#6e5b5073;
+    border: 10px double #6e5b50;
+}
+table,th,td {
+    padding: 10px;
+    margin-left:auto; 
+    margin-right:auto;
+    border: 3px solid #6e5b50;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 25px;
+}
+.th {
+    background-color: #ad7c53bb;
+}
+td {
+    background-color: #beb19c;
+}
+caption {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+form{
+    text-align: center;
+    font-family: "Constantia"; 
+    font-size: 18px;
+    color:#000000;
+}
+input{
+    background-color: #beb19c; 
+}
+button{
+    background-color: #ad7c53bb; 
+    width:100px;
+    height: 30px;
+}
